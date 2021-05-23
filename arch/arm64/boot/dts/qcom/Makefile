@@ -1,5 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 ifneq ($(CONFIG_MACH_XIAOMI_SDM660),y)
+dtb-$(CONFIG_ARCH_QCOM)	+= k5pro-mtp.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-sbc.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= apq8096-db820c.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= ipq8074-hk01.dtb
